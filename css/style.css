@@ -1,111 +1,126 @@
 
-button.style {
-    margin: 20px 85px;
-}
 *{
     margin: 0;
     padding: 0
 }
 .header{
-min-height: 100px; 
-border: 1px solid red;
-overflow: hidden
+    min-height: 70px; 
+    background-color: #FF7101;
+    overflow: hidden;
 }
 
 
 .logo{
-min-height: 100px; 
-background-color: #A6433E; 
-width: 20%;
-float: left
-}
-.nav_bar{
-min-height: 100px; 
-background-color: #A6433E; 
-width: 60%;
-float: right
-}
-
-.slider{
-min-height: 350px;
-background-color: #A2B6B5;
-overflow: hidden;
-}
-
-
-.header_text{
-min-height: 200px;
-border: 1px solid black;
-width: 60%;
-margin: 90px 240px
-}
-
-.main{
-min-height: 400px;
-background-color: #5A5051;
-overflow: hidden
-}
-
-
-.service{
-    overflow: hidden
-   
-}
-.single_service{
-    min-height: 240px;
-    width: 20%;
-    background-color: #DFDAD7; 
-    padding: 10px;
-    margin: 20px 23px auto;
-    float: left;
-    overflow: hidden
-}
-.service_title{
-    overflow: hidden;
-}
-.image{
-    min-height: 80px;
-    width: 30%;
-    background-color: aliceblue;
-    float: left;
-    overflow: hidden
-    
-}
-.title{
-    min-height: 80px;
-    width: 60%;
-    background-color: aliceblue;
-    float: right;
-    overflow: hidden
-    
-}
-.service_text{
-    min-height: 100px;
-    width: 80%;
-    background-color: #4267B2;
-    margin: 0 auto;
-    clear: both
-    overflow: hidden
-}
-
-.button{
-    min-height: 50px;
-    width: 50%;
-    background-color: #CE8B3A;
-    margin: 0 auto;
-    overflow: hidden
-}
-.service_bottom{
-    min-height: 100px;
-    background-color: #B14A3A;
-    margin: 12px;
-}
-.social_media{
-    overflow: hidden;
-}
-.media{
+    min-height: 50px; 
+    border: 2px solid #F7FDFD; 
     width: 15%;
     float: left;
-    padding: 0 33px;
-    margin-top: 30px;
+    margin: 15px 25px;
+}
+.nav_bar{
+    min-height: 50px; 
+    border: 2px solid #F7FDFD;  
+    width: 50%;
+    float: left;
+    margin: 15px 25px;
+
+}
+.social_media{
+    min-height: 50px;
+    border: 2px solid #F7FDFD; 
+    width: 20%;
+    float: left;
+    margin: 15px 25px;
+}
+.content{
+    min-height: 600px;
+    background-color: #E6E6E6;
+    overflow: hidden;
+}
+.slider{
+    min-height: 250px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.slider_content{
+    min-height: 200px;
+    width: 80%;
+    margin: 25px 150px;
+}
+.title{
+    min-height: 200px;
+    background-color: #27BEC5;
+    width: 45%;
+    float: left;
+}
+.image{
+    min-height: 200px;
+    width: 55%;
+    float: right;
+}
+.top_content{
+    min-height: 300px;
+    width: 75%;
+    margin: 20px 180px;
+    overflow: hidden;
+}
+.about{
+    min-height: 300px;
+    background-color: #F2F2F2;
+    width: 45%;
+    margin: 15px 25px;
+    float: left;
+    overflow: hidden;
+    
+}
+.about_title{
+    min-height: 50px;
+    width: 90%;
+    margin: 10px 20px;
+    padding: 5px 5px;
+    overflow: hidden;
+    
+}
+.about_image{
+    min-height: 50px;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    
+}
+.title_text{
+    min-height: 50px;
+    width: 60%;
+    float: right;
+    margin: 5px 10px -5px 10px;
+
+}
+.about_text{
+    min-height: 180px;
+    width: 100%;
+    overflow: hidden;
+}
+.about_button{
+    float: right;
+    background-color: #27BEC5;
+    margin: 5px 10px;
+}
+.bottom_content{
+    min-height: 200px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.footer_bar{
+    min-height: 100px;
+    background-color: #FF7101;
+    margin: 100px 0px 0px 0px;
+}
+.contact{
+    min-height: 70px;
+    border: 2px solid #F7FDFD; 
+    width: 20%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
 }
